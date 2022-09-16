@@ -27,7 +27,7 @@ function generatePassword() {
   let incLower = window.confirm("Include lowercase characters?");
   let incUpper = window.confirm("Include uppercase characters?");
   let numeric = window.confirm("Include numeric characters?");
-  let specChar = window.confirm("Include Special CHaracters?");
+  let specChar = window.confirm("Include Special Characters?");
 
   //Create an array to hold the password letters.
   let passwordSelect = Array(passwordLength);
